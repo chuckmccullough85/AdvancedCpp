@@ -1,4 +1,5 @@
-## Table of Contents
+- [Introduction](Introduction)
+- [Features](Features)
 - [Payroll Part 1](PayrollPart1)
 - [Payroll Part 2](PayrollPart2)
 - [Payroll Part 3](PayrollPart3)
