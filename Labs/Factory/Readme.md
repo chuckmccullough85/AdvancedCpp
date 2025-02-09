@@ -11,7 +11,7 @@ In this lab, we will demonstrate a couple of design patterns:
   * Singleton
   * Factory
 
-While this lab picks up where the previous lab left off, start with this solution to get a head start.
+While this lab picks up where the previous lab left off, start with the code in this folder to get a head start.
 
 ### Overview:
 

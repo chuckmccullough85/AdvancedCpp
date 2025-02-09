@@ -24,10 +24,12 @@ class Cat : public Animal
 {};
 
 
-int main()
+int demo()
 {
-    auto factory = ObjectFactory<shared_ptr<Animal>>::Instance();
-    factory.Register<Dog>("dog"s);
+    
+    auto& factory = ObjectFactory<shared_ptr<Animal>>::Instance();
+    bool r = factory.Register ("dog"s, 
+        [](const string& name) { return make_shared<Dog>(name); });
 
     auto dog = factory.Create("dog"s);
     dog->Speak();

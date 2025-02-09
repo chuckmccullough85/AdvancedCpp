@@ -4,7 +4,7 @@
 
 namespace payroll
 {
-    class Employee : public HumanResource, public Payable
+    class Employee : public HumanResource
     {
     public:
         using HumanResource::HumanResource;

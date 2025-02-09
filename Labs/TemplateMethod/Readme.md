@@ -17,4 +17,3 @@ virtual void validate() const {}
 2. Change the setters in *HumanResource* to call *validate*, *after* setting the value.
 3. Override *validate* in *Employee* to implement the validation rules.  Keep it simple.  Throw an exception if the validation fails.
 1. In main, create an employee and set one of the properties to an invalid value.  Run the program and verify that the exception is thrown.
-1. 

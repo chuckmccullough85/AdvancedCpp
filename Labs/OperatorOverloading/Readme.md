@@ -26,7 +26,4 @@ Because `HumanResource` has a constructor that *can* take a single argument (the
 
 From main(), call the function passing in just a string containing the id.  The compiler will convert the string to an `Employee` and then call the function.
 
-```cpp
-
-
 
